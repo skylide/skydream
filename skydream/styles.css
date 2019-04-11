@@ -1,0 +1,57 @@
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.header-1 {
+    background-color: #384A60;
+    padding-top: 20px;
+}
+.logo {
+    text-align: center;
+}
+.logo a{
+    color: #3C4457;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+.logo a:hover {
+    color: #FFCF11;
+    text-decoration: none;
+}
+.navbar {
+    border-top: 3px solid #FFCF11;
+    background-color: #384A60;
+}
+.navbar a {
+    color: white;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: #FFCF11;
+}
+.fa-bars {
+    color: white;
+}
+section {
+    padding-top: 15px;
+}
+section h1 {
+    border-bottom: 1px solid #FFCF11;
+}
+footer {
+    padding-top: 5px;
+    border-top: 3px solid #FFCF11;
+    background-color: #425367;
+    color: white;
+}
+footer p {
+    padding-bottom: 5px;
+    text-align: center;
+}
+footer a {
+    color: #FFCF11;
+}
+input, textarea {
+    width: 100%;
+}
