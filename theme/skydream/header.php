@@ -26,22 +26,31 @@ include_once(THEMES.$core->getConfigVal('theme').'/functions.php');
 <body>
 	<header>
 		<div class="header-1"></div>
-		<p class="logo"><a href="<?php show::siteUrl(); ?>"><?php show::siteName(); ?></a></p>
-		<nav class="navbar navbar-expand-lg">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fas fa-bars"></i>
-			</button>
+		<div class="header-2">
+			<p class="logo"><a href="<?php show::siteUrl(); ?>"><?php show::siteName(); ?></a></p>
+		</div>
+		<div class="header-3">
+			<nav class=" container navbar navbar-expand-lg">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="fas fa-bars"></i>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<?php show::mainNavigation(); ?>
-				</ul>
-				<form class="form-inline">
-					<?php $core->callHook('endFrontBody'); ?>
-				</form>
-			</div>
-		</nav>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<?php show::mainNavigation(); ?>
+					</ul>
+					<form class="form-inline">
+						<?php $core->callHook('endIcone'); ?>
+					</form>
+				</div>
+			</nav>
+		</div>
 	</header>
 	<section class="container">
-		<?php show::mainTitle(); ?>
+		<div class="row">
+			<div class="col-md-12">
+				<?php show::mainTitle(); ?>
+			</div>
+		</div>
