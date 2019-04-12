@@ -1,4 +1,6 @@
 <?php defined('ROOT') OR exit('No direct script access allowed'); ?>
+</div>
+		</div>
 </section>
 <footer>
 	<div class="footer-1">
