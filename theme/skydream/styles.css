@@ -139,9 +139,14 @@ footer {
 
 .footer-1 {
     background-color: #384A5F;
+    padding-bottom: 15px;
 }
 .footer-1 a {
     color: white;
+}
+.footer-1 a:hover {
+    color: #FFCF11;
+    text-decoration: inherit;
 }
 .h5-widget {
     position: relative;
