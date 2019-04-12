@@ -20,5 +20,6 @@ define('DATA_PLUGIN', ROOT.'data/plugin/');
 define('THEMES', ROOT.'theme/');
 define('PLUGINS', ROOT.'plugin/');
 define('ADMIN_PATH', ROOT.'admin/');
+define('JQUERY', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js');
 if(file_exists(DATA.'key.php')) include(DATA.'key.php');
 ?>
