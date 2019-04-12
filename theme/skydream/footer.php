@@ -17,7 +17,7 @@
 	</div>
 	<?php $core->callHook('footer'); ?>
 	<div class="footer-2">
-		<div class="container">
+		<div class="container">deded
 			<div class="row">
 				<div class="col-md-6">
 					<a target='_blank' href='https://github.com/99kocms/'>CMS utilisé 99ko</a> - Thème

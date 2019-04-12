@@ -8,7 +8,7 @@ include_once(THEMES.$core->getConfigVal('theme').'/functions.php');
 <head>
 	<?php eval($core->callHook('frontHead')); ?>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title><?php show::titleTag(); ?></title>
+	<title><?php show::titleTag(); ?></title>dsds
 	<base href="<?php show::siteUrl(); ?>/" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
 	<meta name="description" content="<?php show::metaDescriptionTag(); ?>" />
