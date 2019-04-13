@@ -1,18 +1,22 @@
 <?php defined('ROOT') OR exit('No direct script access allowed'); ?>
 </div>
-		</div>
+</div>
 </section>
 <footer>
 	<div class="footer-1">
 		<div class="container">
-			<div class="col-md-4">
-				<div class="h5-widget">
-					<h5>Réseaux sociaux</h5>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="h5-widget">
+						<h5>Réseaux sociaux</h5>
+					</div>
+					<?php $core->callHook('endFrontBody'); ?>
 				</div>
-				<?php $core->callHook('endFrontBody'); ?>
+				<div class="col-md-4">
+					<?php $core->callHook('newsfooter'); ?>
+				</div>
+				<div class="col-md-4"></div>
 			</div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
 		</div>
 	</div>
 	<?php $core->callHook('footer'); ?>
