@@ -23,7 +23,7 @@ function newsFooter(){
 	$core = core::getInstance();
 	$newsManager = new newsManager();
 	foreach($newsManager->getItems() as $k=>$v) if(!$v->getDraft() && $k < 3){
-		echo '<a href="'.$core->makeUrl('news', array('action' => 'read', 'name' => util::strToUrl($v->getName()), 'id' => $v->getId())).'">'.$v->getName().'</a>';
+		echo '- <a href="'.$core->makeUrl('news', array('action' => 'read', 'name' => util::strToUrl($v->getName()), 'id' => $v->getId())).'">'.$v->getName().'</a>';
 		echo '<br>';
 	}
 }
