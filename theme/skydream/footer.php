@@ -15,8 +15,8 @@
 				<div class="col-md-4">
 					<div class="h5-widget">
 						<h5>Dernières news</h5>
-						<?php $core->callHook('newsfooter'); ?>
 					</div>
+					<?php $core->callHook('newsfooter'); ?>
 				</div>
 				<div class="col-md-4"></div>
 			</div>
