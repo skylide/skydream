@@ -32,10 +32,10 @@ function seoEndFrontBody(){
     $twitter = $plugin->getConfigVal('twitter');
     $youtube = $plugin->getConfigVal('youtube');
     if($gplus.$facebook.$twitter != ''){
-        if($gplus != '') echo '<a target="_blank" href="'.$gplus.'" class="google">- Google+</a><br>';
-        if($facebook != '') echo '<a target="_blank" href="'.$facebook.'" class="facebook">- Facebook</a><br>';
-        if($twitter != '') echo '<a target="_blank" href="'.$twitter.'" class="twitter">- Twitter</a><br>';
-        if($youtube != '') echo '<a target="_blank" href="'.$youtube.'" class="youtube">- YouTube</a>';
+        if($gplus != '') echo '- <a target="_blank" href="'.$gplus.'" class="google">Google+</a><br>';
+        if($facebook != '') echo '- <a target="_blank" href="'.$facebook.'" class="facebook">Facebook</a><br>';
+        if($twitter != '') echo '- <a target="_blank" href="'.$twitter.'" class="twitter">Twitter</a><br>';
+        if($youtube != '') echo '- <a target="_blank" href="'.$youtube.'" class="youtube">YouTube</a>';
     }
 }
 function seoEndIcone(){
@@ -47,9 +47,9 @@ function seoEndIcone(){
     if($gplus.$facebook.$twitter != ''){
         echo '<div class="seo_social">';
         if($gplus != '') echo '- <a target="_blank" href="'.$gplus.'" class="i-google"><i class="fab fa-google-plus-g"></i></a>';
-        if($facebook != '') echo '- <a target="_blank" href="'.$facebook.'" class="i-facebook"><i class=" i-facebook fab fa-facebook-f"></i></a>';
-        if($twitter != '') echo '- <a target="_blank" href="'.$twitter.'" class="i-twitter"><i class="fab fa-twitter"></i></a>';
-        if($youtube != '') echo '- <a target="_blank" href="'.$youtube.'" class="i-youtube"><i class="fab fa-youtube"></i></a>';
+        if($facebook != '') echo '<a target="_blank" href="'.$facebook.'" class="i-facebook"><i class=" i-facebook fab fa-facebook-f"></i></a>';
+        if($twitter != '') echo '<a target="_blank" href="'.$twitter.'" class="i-twitter"><i class="fab fa-twitter"></i></a>';
+        if($youtube != '') echo '<a target="_blank" href="'.$youtube.'" class="i-youtube"><i class="fab fa-youtube"></i></a>';
         echo '</div>';
     }
 }
