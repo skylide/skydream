@@ -3,6 +3,7 @@
 </div>
 </section>
 <footer>
+	<?php $core->callHook('footer'); ?>
 	<div class="footer-1">
 		<div class="container">
 			<div class="row">
@@ -18,11 +19,17 @@
 					</div>
 					<?php $core->callHook('newsfooter'); ?>
 				</div>
-				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="h5-widget">
+						<h5>Partenaires</h5>
+						- <a href="https://www.mycraftsite.fr.nf/" target="_blank">Arnaud Dupont</a><br>
+						- <a href="https://www.facebook.com/99kocms/" target="_blank">99ko CMS</a><br>
+						- <a href="http://www.name.tld/" target="_blank">name</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<?php $core->callHook('footer'); ?>
 	<div class="footer-2">
 		<div class="container">
 			<div class="row">
@@ -34,11 +41,11 @@
 						href="https://www.mycraftsite.fr.nf">Arnaud Dupont</a>
 				</div>
 				<div class="col-md-6">
-					<span class="float">
-						<a href="/index.php">Accueil</a>
-						<a href="/index.php?p=news">News</a>
+					<div class="float">
+						<a href="/index.php">Accueil</a> -
+						<a href="/index.php?p=news">News</a> -
 						<a href="/index.php?p=contact">Contact</a>
-					</span>
+					</div>
 				</div>
 			</div>
 		</div>
