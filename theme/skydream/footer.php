@@ -22,10 +22,10 @@
 				<div class="col-md-4">
 					<div class="h5-widget">
 						<h5>Partenaires</h5>
+					</div>
 						- <a href="https://www.mycraftsite.fr.nf/" target="_blank">Arnaud Dupont</a><br>
 						- <a href="https://www.facebook.com/99kocms/" target="_blank">99ko CMS</a><br>
 						- <a href="http://www.name.tld/" target="_blank">name</a>
-					</div>
 				</div>
 			</div>
 		</div>
