@@ -8,19 +8,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<div class="h5-widget rs">
+					<div class="h5-widget reseaux-social">
 						<h5>Réseaux sociaux</h5>
 					</div>
 					<?php $core->callHook('endFrontBody'); ?>
 				</div>
 				<div class="col-md-4">
-					<div class="h5-widget dn">
+					<div class="h5-widget derniere-news">
 						<h5>Dernières news</h5>
 					</div>
 					<?php $core->callHook('newsfooter'); ?>
 				</div>
 				<div class="col-md-4">
-					<div class="h5-widget p">
+					<div class="h5-widget partenaires">
 						<h5>Partenaires</h5>
 					</div>
 					- <a href="https://www.mycraftsite.fr.nf/" target="_blank">Arnaud Dupont</a><br>
