@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="float">
-						<a href="<?php echo $core->makeUrl('index');?>">Accueil</a> -
+						<a href="/">Accueil</a> -
 						<a href="<?php echo $core->makeUrl('news');?>">News</a> -
 						<a href="<?php echo $core->makeUrl('contact');?>">Contact</a>
 					</div>
