@@ -22,9 +22,10 @@ echo $runPlugin->getConfigVal('content1');
       value="<?php echo $email; ?>">
   </div>
   <div class="form-group">
-    <textarea class="form-control" required="required" name="message" placeholder="Message"><?php echo $message; ?></textarea>
+    <textarea class="form-control" required="required" name="message"
+      placeholder="Message"><?php echo $message; ?></textarea>
   </div>
-  
+
   <div class="form-check">
     <input type="checkbox" required="required" class="form-check-input">
     <label class="form-check-label"><?php echo $runPlugin->getConfigVal('acceptation'); ?></label>
