@@ -12,7 +12,6 @@ include_once(THEMES.$core->getConfigVal('theme').'/functions.php');
 	<base href="<?php show::siteUrl(); ?>/" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
 	<meta name="description" content="<?php show::metaDescriptionTag(); ?>" />
-	<!-- <link rel="icon" href="<?php show::themeIcon(); ?>" /> -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/css/mdb.min.css" rel="stylesheet">
